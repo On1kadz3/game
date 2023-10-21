@@ -4,7 +4,8 @@ import random as rd
 
 class Skeleton:
     def attack(self):
-        pass
+        if distance_to_enemy <= Skeleton.attack_range:
+            deal_damage = 0;
 
-
+# distance_to_enemy =
 Skeleton = Entity(Skeleton, 25, rd.randint(1, 4), 0, 1, 2, 6)
